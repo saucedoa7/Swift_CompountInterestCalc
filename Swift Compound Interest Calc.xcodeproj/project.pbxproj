@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50FCAD0519FB1AD500A96A07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FCAD0419FB1AD500A96A07 /* AppDelegate.swift */; };
+		50FCAD0819FB1AD500A96A07 /* Swift_Compound_Interest_Calc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50FCAD0619FB1AD500A96A07 /* Swift_Compound_Interest_Calc.xcdatamodeld */; };
+		50FCAD0A19FB1AD500A96A07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FCAD0919FB1AD500A96A07 /* ViewController.swift */; };
+		50FCAD0D19FB1AD500A96A07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FCAD0B19FB1AD500A96A07 /* Main.storyboard */; };
+		50FCAD0F19FB1AD500A96A07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50FCAD0E19FB1AD500A96A07 /* Images.xcassets */; };
+		50FCAD1219FB1AD500A96A07 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50FCAD1019FB1AD500A96A07 /* LaunchScreen.xib */; };
+		50FCAD1E19FB1AD600A96A07 /* Swift_Compound_Interest_CalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FCAD1D19FB1AD600A96A07 /* Swift_Compound_Interest_CalcTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50FCAD1819FB1AD600A96A07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50FCACF719FB1AD500A96A07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50FCACFE19FB1AD500A96A07;
+			remoteInfo = "Swift Compound Interest Calc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50FCACFF19FB1AD500A96A07 /* Swift Compound Interest Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Compound Interest Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50FCAD0319FB1AD500A96A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50FCAD0419FB1AD500A96A07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50FCAD0719FB1AD500A96A07 /* Swift_Compound_Interest_Calc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Swift_Compound_Interest_Calc.xcdatamodel; sourceTree = "<group>"; };
+		50FCAD0919FB1AD500A96A07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50FCAD0C19FB1AD500A96A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50FCAD0E19FB1AD500A96A07 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		50FCAD1119FB1AD500A96A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		50FCAD1719FB1AD600A96A07 /* Swift Compound Interest CalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift Compound Interest CalcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50FCAD1C19FB1AD600A96A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50FCAD1D19FB1AD600A96A07 /* Swift_Compound_Interest_CalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Compound_Interest_CalcTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50FCACFC19FB1AD500A96A07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50FCAD1419FB1AD600A96A07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50FCACF619FB1AD500A96A07 = {
+			isa = PBXGroup;
+			children = (
+				50FCAD0119FB1AD500A96A07 /* Swift Compound Interest Calc */,
+				50FCAD1A19FB1AD600A96A07 /* Swift Compound Interest CalcTests */,
+				50FCAD0019FB1AD500A96A07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50FCAD0019FB1AD500A96A07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50FCACFF19FB1AD500A96A07 /* Swift Compound Interest Calc.app */,
+				50FCAD1719FB1AD600A96A07 /* Swift Compound Interest CalcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50FCAD0119FB1AD500A96A07 /* Swift Compound Interest Calc */ = {
+			isa = PBXGroup;
+			children = (
+				50FCAD0419FB1AD500A96A07 /* AppDelegate.swift */,
+				50FCAD0919FB1AD500A96A07 /* ViewController.swift */,
+				50FCAD0B19FB1AD500A96A07 /* Main.storyboard */,
+				50FCAD0E19FB1AD500A96A07 /* Images.xcassets */,
+				50FCAD1019FB1AD500A96A07 /* LaunchScreen.xib */,
+				50FCAD0619FB1AD500A96A07 /* Swift_Compound_Interest_Calc.xcdatamodeld */,
+				50FCAD0219FB1AD500A96A07 /* Supporting Files */,
+			);
+			path = "Swift Compound Interest Calc";
+			sourceTree = "<group>";
+		};
+		50FCAD0219FB1AD500A96A07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50FCAD0319FB1AD500A96A07 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50FCAD1A19FB1AD600A96A07 /* Swift Compound Interest CalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				50FCAD1D19FB1AD600A96A07 /* Swift_Compound_Interest_CalcTests.swift */,
+				50FCAD1B19FB1AD600A96A07 /* Supporting Files */,
+			);
+			path = "Swift Compound Interest CalcTests";
+			sourceTree = "<group>";
+		};
+		50FCAD1B19FB1AD600A96A07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50FCAD1C19FB1AD600A96A07 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50FCACFE19FB1AD500A96A07 /* Swift Compound Interest Calc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50FCAD2119FB1AD600A96A07 /* Build configuration list for PBXNativeTarget "Swift Compound Interest Calc" */;
+			buildPhases = (
+				50FCACFB19FB1AD500A96A07 /* Sources */,
+				50FCACFC19FB1AD500A96A07 /* Frameworks */,
+				50FCACFD19FB1AD500A96A07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift Compound Interest Calc";
+			productName = "Swift Compound Interest Calc";
+			productReference = 50FCACFF19FB1AD500A96A07 /* Swift Compound Interest Calc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50FCAD1619FB1AD600A96A07 /* Swift Compound Interest CalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50FCAD2419FB1AD600A96A07 /* Build configuration list for PBXNativeTarget "Swift Compound Interest CalcTests" */;
+			buildPhases = (
+				50FCAD1319FB1AD600A96A07 /* Sources */,
+				50FCAD1419FB1AD600A96A07 /* Frameworks */,
+				50FCAD1519FB1AD600A96A07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50FCAD1919FB1AD600A96A07 /* PBXTargetDependency */,
+			);
+			name = "Swift Compound Interest CalcTests";
+			productName = "Swift Compound Interest CalcTests";
+			productReference = 50FCAD1719FB1AD600A96A07 /* Swift Compound Interest CalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50FCACF719FB1AD500A96A07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Albert Saucedo";
+				TargetAttributes = {
+					50FCACFE19FB1AD500A96A07 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					50FCAD1619FB1AD600A96A07 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 50FCACFE19FB1AD500A96A07;
+					};
+				};
+			};
+			buildConfigurationList = 50FCACFA19FB1AD500A96A07 /* Build configuration list for PBXProject "Swift Compound Interest Calc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50FCACF619FB1AD500A96A07;
+			productRefGroup = 50FCAD0019FB1AD500A96A07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50FCACFE19FB1AD500A96A07 /* Swift Compound Interest Calc */,
+				50FCAD1619FB1AD600A96A07 /* Swift Compound Interest CalcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50FCACFD19FB1AD500A96A07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50FCAD0D19FB1AD500A96A07 /* Main.storyboard in Resources */,
+				50FCAD1219FB1AD500A96A07 /* LaunchScreen.xib in Resources */,
+				50FCAD0F19FB1AD500A96A07 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50FCAD1519FB1AD600A96A07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50FCACFB19FB1AD500A96A07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50FCAD0A19FB1AD500A96A07 /* ViewController.swift in Sources */,
+				50FCAD0519FB1AD500A96A07 /* AppDelegate.swift in Sources */,
+				50FCAD0819FB1AD500A96A07 /* Swift_Compound_Interest_Calc.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50FCAD1319FB1AD600A96A07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50FCAD1E19FB1AD600A96A07 /* Swift_Compound_Interest_CalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50FCAD1919FB1AD600A96A07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50FCACFE19FB1AD500A96A07 /* Swift Compound Interest Calc */;
+			targetProxy = 50FCAD1819FB1AD600A96A07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50FCAD0B19FB1AD500A96A07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50FCAD0C19FB1AD500A96A07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50FCAD1019FB1AD500A96A07 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50FCAD1119FB1AD500A96A07 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50FCAD1F19FB1AD600A96A07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50FCAD2019FB1AD600A96A07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50FCAD2219FB1AD600A96A07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift Compound Interest Calc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50FCAD2319FB1AD600A96A07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift Compound Interest Calc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		50FCAD2519FB1AD600A96A07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift Compound Interest CalcTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift Compound Interest Calc.app/Swift Compound Interest Calc";
+			};
+			name = Debug;
+		};
+		50FCAD2619FB1AD600A96A07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift Compound Interest CalcTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift Compound Interest Calc.app/Swift Compound Interest Calc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50FCACFA19FB1AD500A96A07 /* Build configuration list for PBXProject "Swift Compound Interest Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50FCAD1F19FB1AD600A96A07 /* Debug */,
+				50FCAD2019FB1AD600A96A07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50FCAD2119FB1AD600A96A07 /* Build configuration list for PBXNativeTarget "Swift Compound Interest Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50FCAD2219FB1AD600A96A07 /* Debug */,
+				50FCAD2319FB1AD600A96A07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50FCAD2419FB1AD600A96A07 /* Build configuration list for PBXNativeTarget "Swift Compound Interest CalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50FCAD2519FB1AD600A96A07 /* Debug */,
+				50FCAD2619FB1AD600A96A07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		50FCAD0619FB1AD500A96A07 /* Swift_Compound_Interest_Calc.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50FCAD0719FB1AD500A96A07 /* Swift_Compound_Interest_Calc.xcdatamodel */,
+			);
+			currentVersion = 50FCAD0719FB1AD500A96A07 /* Swift_Compound_Interest_Calc.xcdatamodel */;
+			path = Swift_Compound_Interest_Calc.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 50FCACF719FB1AD500A96A07 /* Project object */;
+}
